@@ -12,8 +12,8 @@ function Navbar() {
         <span className="text-indigo-400 hidden md:flex gap-8 font-semibold">
             <Link href='/cart'>Cart</Link>
             {/* <Link href='/seller-register'>Become a Seller</Link> */}
-            <Link href='/signup'>Sign-Up</Link>
-            <Link href='/login'>Login</Link>
+            <Link href='/auth/signup'>Sign-Up</Link>
+            <Link href='/auth/login'>Login</Link>
         </span>
     </nav>
   )
